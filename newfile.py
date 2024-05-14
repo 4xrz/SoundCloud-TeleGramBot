@@ -2,6 +2,9 @@ import requests , telebot, re , os
 from Rooz import Download
 from kvsqlite.sync import Client
 from telebot import types
+from keep_alive import keep_alive
+
+keep_alive()
 
 db = Client('bc.hex')#['db']
 #db.create_table()

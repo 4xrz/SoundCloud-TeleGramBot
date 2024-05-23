@@ -9,8 +9,7 @@ keep_alive()
 db = Client('bc.hex')#['db']
 #db.create_table()
 
-bot=telebot.TeleBot('6160925735:AAE_gAYMAVpXkH58oKQAlmmEw3j3TluzaAQ')
-
+bot=telebot.TeleBot('6160925735:AAFkOKMKZ1XdYiik1voNMhZTWqftPr1_CcE')
 @bot.message_handler(commands=['start'])
 def start(message):
 	fe = types.InlineKeyboardMarkup(row_width=2)
